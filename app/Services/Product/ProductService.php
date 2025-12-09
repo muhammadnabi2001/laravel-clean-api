@@ -8,9 +8,6 @@ use App\DTO\Product\UpdateProductDTO;
 use App\Http\Resources\Product\ProductResource;
 use App\Models\Product;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
-use Illuminate\Http\Response;
-use Nette\Utils\Json;
 
 class ProductService
 {
