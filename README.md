@@ -76,3 +76,8 @@ php artisan serve
 - Fork the repository
 - Create a new branch for your feature or bugfix
 - Open a pull request
+
+## License
+
+MIT
+
