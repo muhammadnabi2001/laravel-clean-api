@@ -17,6 +17,7 @@ class ProductController extends Controller
      * Display a listing of the resource.
      */
     public function __construct(private readonly ProductService $service) {}
+    
     public function index(ProductIndexRequest $request)
     {
         return  $this->service->index($request->validated());

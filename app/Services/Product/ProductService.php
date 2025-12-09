@@ -3,7 +3,6 @@
 namespace App\Services\Product;
 
 use App\DTO\Product\CreateProductDTO;
-use App\DTO\Product\ShowProductDTO;
 use App\DTO\Product\UpdateProductDTO;
 use App\Http\Resources\Product\ProductResource;
 use App\Models\Product;

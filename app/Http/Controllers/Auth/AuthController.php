@@ -14,6 +14,7 @@ class AuthController extends Controller
     public function __construct(
         private readonly AuthService $authService
     ) {}
+    
     public function login(LoginRequest $request): JsonResponse
     {
         $dto = LoginDTO::fromRequest($request->validated());
